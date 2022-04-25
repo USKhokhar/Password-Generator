@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(93, 7, 93);
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 30%;
+    height: 60vh;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 42px;
+    line-height: 48px;
+    background-image: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    padding: 5%;
+    height: 20vh;
+    color: antiquewhite;
+}
+
+.subhead{
+    font-size: 16px;
+    line-height: 17.7px;
+    padding: 5%;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+}
+
+.generated{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    padding-left: 10%;
+}
+
+.pass{
+    border: 0.3px solid salmon;
+    border-radius: 16px;
+    background-color: rgba(250, 128, 114, 0.414);
+    width: 80%;
+    height: 5vh;
+    align-self: center;
+}
+
+.material-icons{
+    align-self: center;
+    padding-left: 1%;
+}
+
+button{
+    margin-top: 4%;
+    font-size: 16px;
+    line-height: 17.7px;
+    padding: 5%;
+    font-weight: 600;
+    color: antiquewhite;
+    text-transform: uppercase;
+    border: transparent;
+    background-color: rgba(249, 81, 63, 0.982);
+}
+
+button:active, button:hover{
+    color: rgba(249, 81, 63, 0.982);
+    background-color: antiquewhite;
+    border: 0.3px solid rgba(249, 81, 63, 0.982);
+    transform: scale(0.9);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+
+/* Responsive <= 400px */
+@media(max-width: 400px){
+    body{
+        background-color: black;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(93, 7, 93);
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 80%;
+        height: 60vh;
+        background-color: antiquewhite;
+    }
+
+    h1{
+        font-size: 42px;
+        line-height: 48px;
+        background-image: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+        padding: 5%;
+        height: 20vh;
+        color: antiquewhite;
+    }
+
+    .subhead{
+        font-size: 16px;
+        line-height: 17.7px;
+        padding: 5%;
+        font-weight: 600;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .generated{
+        display: flex;
+        width: 100%;
+        height: 8vh;
+        padding-left: 10%;
+    }
+
+    .pass{
+        border: 0.3px solid salmon;
+        border-radius: 16px;
+        background-color: rgba(250, 128, 114, 0.414);
+        width: 80%;
+        height: 5vh;
+        align-self: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 4% 0% 0% 2%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .pass:hover{
+        cursor: text;
+    }
+
+    .material-icons{
+        align-self: center;
+        padding-left: 1%;
+    }
+
+    #myInput:hover{
+        cursor: pointer;
+    }
+
+    button{
+        margin-top: 4%;
+        font-size: 16px;
+        line-height: 17.7px;
+        padding: 5%;
+        font-weight: 600;
+        color: antiquewhite;
+        text-transform: uppercase;
+        border: transparent;
+        background-color: rgba(249, 81, 63, 0.982);
+    }
+
+    button:active{
+        color: rgba(249, 81, 63, 0.982);
+        background-color: antiquewhite;
+        border: 0.3px solid rgba(249, 81, 63, 0.982);
+        transform: scale(0.9);
+    }
+}
+
+/* Responsive <= 800 && >=401 */
+
+@media(min-width: 401px) and (max-width: 800px){
+    body{
+        background-color: black;
+    }
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid rgb(93, 7, 93);
+        margin-top: 15%;
+        margin-left: 20%;
+        width: 60%;
+        height: 60vh;
+        background-color: antiquewhite;
+    }
+
+    h1{
+        font-size: 42px;
+        line-height: 48px;
+        background-image: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+        padding: 5%;
+        height: 20vh;
+        color: antiquewhite;
+    }
+
+    .subhead{
+        font-size: 16px;
+        line-height: 17.7px;
+        padding: 5%;
+        font-weight: 600;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .generated{
+        display: flex;
+        width: 100%;
+        height: 8vh;
+        padding-left: 10%;
+    }
+
+    .pass{
+        border: 0.3px solid salmon;
+        border-radius: 16px;
+        background-color: rgba(250, 128, 114, 0.414);
+        width: 80%;
+        height: 5vh;
+        align-self: center;
+    }
+
+    .material-icons{
+        align-self: center;
+        padding-left: 1%;
+    }
+
+    button{
+        margin-top: 4%;
+        font-size: 16px;
+        line-height: 17.7px;
+        padding: 5%;
+        font-weight: 600;
+        color: antiquewhite;
+        text-transform: uppercase;
+        border: transparent;
+        background-color: rgba(249, 81, 63, 0.982);
+    }
+
+    button:active{
+        color: rgba(249, 81, 63, 0.982);
+        background-color: antiquewhite;
+        border: 0.3px solid rgba(249, 81, 63, 0.982);
+        transform: scale(0.9);
+    }
+}
